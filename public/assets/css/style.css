@@ -1,5 +1,13 @@
 body {
     background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+
+}
+
+button {
+    background-color: #ffffff;
+    color: rgba(146, 23, 23, 0.952)
 }
 
 .navbar, .jumbotron {
@@ -15,8 +23,8 @@ body {
 }
 
 #titleText {
-    font-size: 32px;
-    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #signUp {
@@ -41,17 +49,28 @@ body {
 }
 
 .jumbotron {
-    padding-top: 10px;
-    margin-top: 20px;
+    
+    margin: 30px;
+    border: 4px solid rgb(146, 23, 23); 
 }
+
+#hr { 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border: 0;
+    border-top: 3px solid rgb(146, 23, 23);
+}
+
 
 .jumbotron h2 {
     text-align: center;
 }
 
-#welcome {
-    text-decoration: underline;
-}
+/* #welcome {
+     
+} */
 
 label, p {
     font-family: 'Raleway', sans-serif;
@@ -69,6 +88,6 @@ th, td {
     border-bottom: 1px solid #ddd;
 
 }
-h2, h3 {
+/* h2, h3 {
     font-family: 'Open Sans', sans-serif;
-}
+} */

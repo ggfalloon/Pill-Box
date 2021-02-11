@@ -2,7 +2,33 @@
 
 ## Description
 
-Pill-Box is an application designed to help caregivers efficiently manage the medications each of their patients need to take on a daily basis. The application is a secure application that requires the caregivers to register and/or log in to manage their patients' medication intake. Below is a screenshot of the landing page asking the caregiver to log in.
+Pill Box is an application designed to help caregivers efficiently manage the medications their patients need to take. It is a full stack, Heroku deployed, mobile-responsive, secure application that requires the caregivers to register and log in to manage their patient's medication intake, stay organized and reduce errors.
+
+## Table of Contents
+
+* [Technologies](#technologies)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Resources](#resources)
+* [Articles/References](#articles/references)
+* [Questions](#questions)
+* [Contributing](#contributing)
+* [License](#license)
+
+## Technologies
+* Bootstrap 4
+* JavaScript
+* jQuery
+* Node.js (Passport, Bcyrpt, Sequlize, Express, ESLint)
+* Handlebars
+* MySQL
+* Travis CI
+
+## Usage
+
+URL - https://arcane-earth-49085.herokuapp.com/
+
+The application is built to help caregivers efficiently manage and administer any medication their patients need to take on a daily basis.
 
 ![Pill-Box](./public/assets/images/landing.png)
 
@@ -24,49 +50,37 @@ If the caregiver clicks on the option to add new medication, the page with the f
 
 When the user logs out, the log in page is displayed to give the user the option to log back in.
 
-## Table of Contents
+## Credits
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+This application was built in collaboration with:
+* Jose Garcia - https://github.com/chavalk
+* Jason McDonald - https://github.com/JasonMcD96
 
-## Installation
+## Resources
 
-There is no need to install anything to interact with the application. Simply navigate to the deployed application by clicking on the link below.
+* npmjs.com
+* mysql.com
+* getboostrap.com
+* handlebarsjs.com
+* travis-ci.org
 
-https://infinite-mesa-67411.herokuapp.com/
+## Articles/References
 
-## Usage
-
-The application is built to help caregivers efficiently manage and administer any medication their patients need to take on a daily basis.
+* https://www.caregiver.org/caregiver-statistics-demographics
+* https://www.cdc.gov/nchs/fastats/drug-use-therapeutic.htm
+* https://psnet.ahrq.gov/primer/medication-administration-errors
 
 ## Contributing
 
-Contributions to this project were made by Jason McDonald, Gabriele Falloon, and Jose Garcia.
-
-## Tests
-
-There is no testing available within the application.
+Do you have a suggestion or feature you'd like to add? 
+Contributions are welcome and appreciated. Visit https://github.com/ggfalloon/Pill and create a pull request.
 
 ## Questions
 
-This is the GitHub username for each of the contributors: JasonMcD96, ggfalloon, and chavalk.
+&copy; Gabriele Falloon, https://github.com/ggfalloon, ggfalloon@gmail.com
+&copy; Jose Garcia, https://github.com/chavalk, chavalk@hotmail.com
+&copy; Jason McDonald, https://github.com/JasonMcD96, jasonmcd65@gmail.com
 
-These are the links for the GitHub profiles:
+## License
 
-https://github.com/JasonMcD96
-
-https://github.com/ggfalloon
-
-https://github.com/chavalk
-
-If you have any additional questions, feel free to reach any of us at:
-
-jasonmcd65@gmail.com
-
-ggfalloon@gmail.com
-
-chavalk@hotmail.com
+License TBD
