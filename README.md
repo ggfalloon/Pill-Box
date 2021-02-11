@@ -30,23 +30,21 @@ URL - https://sheltered-caverns-06883.herokuapp.com/
 
 ![Pill-Box](./public/assets/images/login.png)
 
-If the caregiver is not already registered, the sign up link can be clicked and the caregiver will be taken to the page to register. The screenshot below will show the page where caregivers can register.
+If the user is not already registered, the sign up link can be clicked and they will be taken to the page to register. 
 
-![Pill-Box](./public/assets/images/signup.png)
+![Pill-Box](./public/assets/images/createuser.png)
 
-Once the caregiver logs in, the dashboard page is displayed. The dashboard includes a welcome section showing the current caregiver's email address, the date of their last login, and the option to log out. It also shows the caregiver the current date and the number of patients to see. Last but not least is the patient list section which includes the option for the caregiver to add a new patient, the list of existing patients, and an option to go back to the top of the page. Below is a screenshot of the dashboard page.
+Once the user logs in, the dashboard page is displayed. It will include a welcome section showing the user's email address, the date of their last login, number of patients to see. out. In the box to the right the user can add a patient and view all current patients.
 
 ![Pill-Box](./public/assets/images/dashboard.png)
 
-The caregiver has an option to click on any of the existing patients to see the list of medication for that particular patient and to add new medication. The caregiver also has the option to click back to dashboard to return to the previous page or to click log out. Below is a screenshot of the patient record page.
+By clicking on the patient's name link in the patient list, the user can view that patient's record and add medcication to their record.
 
 ![Pill-Box](./public/assets/images/patientrecord.png)
 
-If the caregiver clicks on the option to add new medication, the page with the form to enter all the information for the medication is displayed. The caregiver will have the option to enter the medicine name, the dosage, the times per day, whether or not to take it with food, and to add any notes. Once the caregiver clicks the submit button, the site goes back to the patient record page and it shows the new medication that was just added. The caregiver also has the option to go back to previous page and to log out. Below is a screenshot of the page to add medication.
+When the user adds medication to the patient's record, they are provided a form to complete the dosage, the times per day, whether or not to take it with food, and to add any notes. By hitting submit, the user adds that medication to the patient's record. Then they can click the "Back to Previous Page" buton to return to the patient record, view other records or logout.
 
 ![Pill-Box](./public/assets/images/addmed.png)
-
-When the user logs out, the log in page is displayed to give the user the option to log back in.
 
 ## Credits
 
@@ -71,7 +69,7 @@ This application was built in collaboration with:
 ## Contributing
 
 Do you have a suggestion or feature you'd like to add? 
-Contributions are welcome and appreciated. Visit https://github.com/ggfalloon/Pill and create a pull request.
+Contributions are welcome and appreciated. Visit https://github.com/ggfalloon/Pill-Box and create a pull request.
 
 ## Questions
 
