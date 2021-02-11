@@ -2,7 +2,7 @@
 
 ## Description
 
-Pill Box is an application designed to help caregivers efficiently manage the medications their patients need to take. It is a full stack, Heroku deployed, mobile-responsive, secure application that requires the caregivers to register and log in to manage their patient's medication intake, stay organized and reduce errors.
+Pill Box is an application designed to help caregivers efficiently manage the medications their patients need to take. It is a full stack, Heroku deployed, mobile-responsive, secure application that requires the user to register and log in, add and update patients and their medications so they can stay organized and reduce errors.
 
 ## Table of Contents
 
