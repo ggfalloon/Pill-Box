@@ -1,19 +1,28 @@
 {{!-- send information to the api/signup route --}}
 <div class="container">
     <div class="jumbotron">
-        <h2>Create Account</h2>
-        <form class="create-form">
-            <div>
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="emailField" placeholder="Enter your email...">
-                <br>
-                <label for="password">Password</label>
-                <input type="password" id="password" name="passwordField" placeholder="Create a password...">
+        <h2>CREATE ACCOUNT</h2>
+        <hr id="hr">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form class="create-form">
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="emailField" placeholder="Enter your email...">
+                            <br>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="passwordField"
+                                placeholder="Create a password...">
+                        </div>
+                        <button id="signUpSubmit" type="submit">SUBMIT</button>
+                        </br>
+                        </br>
+                        <p> You'll be taken back to the login page to sign in and begin using your account.</p>
+                    </form>
+                </div>
             </div>
-
-            <button id="signUpSubmit" type="submit">Submit</button>
-        </form>
-
+        </div>
     </div>
 
 </div>

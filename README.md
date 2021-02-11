@@ -26,11 +26,9 @@ Pill Box is an application designed to help caregivers efficiently manage the me
 
 ## Usage
 
-URL - https://arcane-earth-49085.herokuapp.com/
+URL - https://sheltered-caverns-06883.herokuapp.com/
 
-The application is built to help caregivers efficiently manage and administer any medication their patients need to take on a daily basis.
-
-![Pill-Box](./public/assets/images/landing.png)
+![Pill-Box](./public/assets/images/login.png)
 
 If the caregiver is not already registered, the sign up link can be clicked and the caregiver will be taken to the page to register. The screenshot below will show the page where caregivers can register.
 
