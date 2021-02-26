@@ -2,6 +2,7 @@
 // =============================================================
 var express = require("express");
 var session = require("express-session");
+var compression = require("compression");
 
 // Requiring passport as configured
 var passport = require("./config/passport");
@@ -10,11 +11,12 @@ var passport = require("./config/passport");
 var PORT = process.env.PORT || 8080;
 var db = require("./models");
 
-// Creating express app and configuring middleware needed for authentication
+// Creating express app and configuring middleware needed for authentication and compression
 var app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
+app.use(compression());
 
 // Use sessions to keep track of user's login status
 app.use(session({ secret: "keyboard cat", resave: true, saveUninitialized: true }));
